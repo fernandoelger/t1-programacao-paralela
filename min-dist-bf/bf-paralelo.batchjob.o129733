@@ -1,0 +1,70 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad02
+
+Initial Time is Thu Oct 15 17:28:57 BRT 2020
+
+Directory is /home/pp12705/openmp/trab1/min-dist-bf
+
+This jobs runs on the following nodes:
+grad02
+
+JOB_ID:
+129733
+
+10000 0.365879
+20000 1.450415
+30000 3.263607
+40000 5.793934
+50000 9.024794
+60000 13.003063
+70000 17.698290
+80000 23.127711
+90000 29.264471
+100000 36.122189
+803.884866
+730.382026
+605.644682
+605.644682
+131.090729
+131.090729
+131.090729
+131.090729
+131.090729
+131.090729
+
+real	2m19.133s
+user	4m37.665s
+sys	0m0.012s
+Final Time is Thu Oct 15 17:31:16 BRT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12705 on the batch nodes
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:04:04 
+
+ -- MEMORY       = 3956kb 
+
+ -- VIRTUAL MEM  = 34760kb 
+
+ -- ELAPSED TIME = 00:02:19 
+
